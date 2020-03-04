@@ -13,7 +13,6 @@ class MedicosGateway extends Database
 		$pdo = Database::connect();
 		$sql = $pdo->prepare("SELECT * FROM medico ORDER BY $order ASC");
 		$sql->execute();
-		// $result = $sql->fetchAll(PDO::FETCH_ASSOC);
 
 		$medicos = array();
 		while ($obj = $sql->fetch(PDO::FETCH_OBJ)) {
