@@ -1,0 +1,26 @@
+table.medicos {
+    width: 100%;
+}
+
+table.medicos thead {
+    background-color: #eee;
+    text-align: left;
+}
+
+table.medicos thead th {
+    border: solid 1px #fff;
+    padding: 3px;
+}
+
+table.medicos tbody td {
+    border: solid 1px #eee;
+    padding: 3px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+    color: blue;
+    text-decoration: underline;
+}
