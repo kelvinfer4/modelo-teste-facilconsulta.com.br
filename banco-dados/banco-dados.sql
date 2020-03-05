@@ -1,3 +1,5 @@
+﻿-- É recomendado que a a estrutura e os dados de exemplos estajam nessa pasta
+
 CREATE DATABASE teste_fc;
 
 CREATE TABLE `medico` (
@@ -16,4 +18,4 @@ INSERT INTO `medico` (`id`, `email`, `nome`, `senha`, `endereco_consultorio`, `d
 (8, 'luizcesar@gmail.com', 'Luiz Cezar', 'd41d8cd98f00b204e9800998ecf8427e', 'Rua Pernambuco, 8758', '2020-03-03 23:34:38', '2020-03-03 12:03:45'),
 (9, 'manu@gmail.com', 'Manu Lapschies', 'd41d8cd98f00b204e9800998ecf8427e', 'Rua das Flores, 88', '2020-03-04 00:01:54', '2020-03-03 12:03:27'),
 (10, 'miguel@gmail.com', 'Miguel Lapschies Silveira', 'd41d8cd98f00b204e9800998ecf8427e', 'Av. Bento 17855', '2020-03-04 00:03:15', '2020-03-03 12:03:53'),
-(11, 'antoniosouza@gmail.com', 'Antonio Souza', 'd41d8cd98f00b204e9800998ecf8427e', 'Av. Bento 88', '2020-03-04 00:20:12', '2020-03-03 12:03:30'); 
+(11, 'antoniosouza@gmail.com', 'Antonio Souza', 'd41d8cd98f00b204e9800998ecf8427e', 'Av. Bento 88', '2020-03-04 00:20:12', '2020-03-03 12:03:30');

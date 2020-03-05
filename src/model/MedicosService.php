@@ -1,7 +1,7 @@
 <?php
 
 require_once ROOT_PATH.DIRECTORY_SEPARATOR.'model'.DIRECTORY_SEPARATOR.'MedicosGateway.php';
-require_once ROOT_PATH.DIRECTORY_SEPARATOR.'model'.DIRECTORY_SEPARATOR.'Database.php';
+require_once ROOT_PATH.DIRECTORY_SEPARATOR.'model'.DIRECTORY_SEPARATOR.'config-banco-dados.php';
 
 class MedicosService extends MedicosGateway
 {
@@ -77,5 +77,3 @@ class MedicosService extends MedicosGateway
 		}
     }
 }
-
-?>

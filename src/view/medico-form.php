@@ -51,7 +51,7 @@
 					</div>
 
 					<input type="hidden" name="form-submitted" value="1">
-					<input type="submit" value="Cadastrar"  class="btn btn-success btn-lg col-md-6">
+					<input type="submit" value="Cadastrar" class="btn btn-success btn-lg col-md-6">
 					<button type="button" onclick="location.href='index.php'" class="btn btn-light btn-lg col-md-6">Cancelar</button>
 				</form>
 			</div>

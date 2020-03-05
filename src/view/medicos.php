@@ -10,7 +10,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Médicos</title>
-	<link rel="stylesheet" href="model/css/index.css">
+	<link rel="stylesheet" href="<?php echo URL;?>model/css/index.css">
 </head>
 
 <body>
